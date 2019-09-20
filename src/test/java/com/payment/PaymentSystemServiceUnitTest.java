@@ -20,7 +20,7 @@ public class PaymentSystemServiceUnitTest {
     public void shouldReturnNullWhenPaymentSystemNotExist() {
         PaymentSystem result = instance.getPaymentSystem(0);
         
-        assertNull(result);
+     assertNull(result);
     }
 
     @Test
